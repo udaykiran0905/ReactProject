@@ -1,0 +1,22 @@
+.product-overview{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+.product-service-data {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  color: white;
+  /* border-top: 1px solid #333; */
+}
+
+.product-icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+

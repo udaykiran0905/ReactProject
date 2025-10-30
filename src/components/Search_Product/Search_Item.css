@@ -1,0 +1,38 @@
+.input{
+    /* border: 1px solid red; */
+    width:450px;
+    padding: 3px;
+    z-index: 1;
+    position: absolute;
+    top:100px;
+    left:400px;
+    border:1px solid rgb(139, 133, 133);
+    color:azure;
+}
+.search-list{
+    width:430px;
+    border:1px solid  rgb(139, 133, 133);
+    color: beige;
+    z-index:1;
+    position:absolute;
+    top:160px;
+    left:400px;
+    overflow-y: scroll;
+    height: 300px;
+    /* height:auto; */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;
+}
+.clear-icon{
+     position: absolute;
+    top:105px;
+    left:820px;
+    color:rgb(178, 182, 186);
+     cursor: pointer;
+    z-index: 1;
+}
+.link-product-list{
+    text-decoration: none;
+    color:rgb(178, 182, 186);
+
+}

@@ -1,0 +1,40 @@
+.me-4{
+    cursor: pointer;
+}
+.header-component{
+    position: fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    z-index: 1000;
+    width: 100%;
+}
+.cart-sup-icon{
+    background-color: red;
+   text-align: center;
+    width:20px;
+    height: 20px;
+    position: absolute;
+    /* top:5px; */
+    top:-18px;
+    right:10px;
+  
+}
+.user-icon-wrapper {
+  position: relative;
+}
+
+.hover-login-container {
+  position: absolute;
+  right: 0;
+  top: 40px;
+  display: none;
+}
+
+.user-icon-wrapper:hover .hover-login-container {
+  display: block;
+  z-index: 10;
+}
+
+
+
