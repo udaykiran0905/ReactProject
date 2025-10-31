@@ -21,6 +21,7 @@ export default function Cart() {
         <div className='cart-icon-addproduct'>
           <FaShoppingCart size={84} className='text-danger ms-4' />
           <h3 className='mt-2'>Cart is Empty</h3>
+          <button className='text-white bg-danger p-1 ms-4'>Start Shopping</button>
         </div>
       </div>
     );

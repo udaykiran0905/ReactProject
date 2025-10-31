@@ -46,7 +46,7 @@ export default function Login({
                   <button type="button" className="btn-close btn-close-white position-absolute top-0 end-0 mt-2 me-2" onClick={closeAll} />
                   <h4 className="text-white mb-3">Login</h4>
                    <div className="d-flex mb-3">
-                    <p className="text-white me-1 opacity-50">New to Tech-Shop?</p>
+                    <p className="text-white me-1">New to Tech-Shop?</p>
                     <button className="btn btn-link text-white text-decoration-none btn-create p-0 "
                       onClick={openSignup}
                     >Create an account </button>
@@ -88,7 +88,7 @@ export default function Login({
                   <button type="button" className="btn-close btn-close-white position-absolute top-0 end-0 mt-2 me-2" onClick={closeAll} />
                   <h4 className="text-white mb-3">Sign Up</h4>
                    <div className="d-flex mb-3">
-                    <p className="text-white me-1 opacity-50">Already have an account?</p>
+                    <p className="text-white me-1">Already have an account?</p>
                     <button className="btn btn-link text-white text-decoration-none btn-login p-0 " onClick={backToLogin} >
                       Login</button>
                   </div>

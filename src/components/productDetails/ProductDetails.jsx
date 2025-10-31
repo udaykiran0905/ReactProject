@@ -46,6 +46,14 @@ export default function ProductDetails() {
     };
   };
   const { remainingprice, discountPercentage } = discount();
+  const[addstyle,setaddstyle]=useState(false)
+    const handlestyle=()=>{
+      dispatch(addToCart(filterData));
+      setaddstyle(true);
+      setTimeout(() => {
+        setaddstyle(false);
+      }, 1000);
+    }
 
   return (
     <div className="bg-black">
@@ -106,12 +114,10 @@ export default function ProductDetails() {
           <button className="discount-btn">No Cost EMI on Credit Card</button>
           <button className="discount-btn">Pay Later & Avail Cashback</button>
           <hr className="mt-4" />
-          <button 
-            className="bg-danger w-50 p-1" 
-            onClick={() => dispatch(addToCart(filterData))} 
-          >
-            Add To Cart
-          </button>
+           {addstyle?<button class="btn btn-success w-100">Added</button>:
+
+        <button class="btn btn-danger w-100" onClick={handlestyle}>Add to cart</button>
+      }
         </div>
       </div>
       <div className="product-overview text-white">
